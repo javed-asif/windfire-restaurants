@@ -1,0 +1,5 @@
+user: pi
+group: pi
+remote_home_dir: /home/pi
+remote_nodejs_dest_dir: "{{ remote_home_dir }}/windfire-restaurants-node"
+remote_nodejs_app_dir: "{{ remote_home_dir }}/windfire-restaurants-node/app"
